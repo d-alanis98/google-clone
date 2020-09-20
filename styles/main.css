@@ -1,0 +1,121 @@
+main {
+    height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .google-logo {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+main .google-logo img {
+    width: 15rem;
+}
+
+main .search-input-section {
+    width: 30rem;
+}
+
+main .search-input-container {
+    height: 2.5rem;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+
+main .search-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1d500;
+}
+
+main .search-input-container .search-input {
+    width: 78%;
+    height: 90%;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+}
+
+main .search-input-container .search-icon {
+    width: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+main .search-input-container .right-side-icons {
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .search-input-container .right-side-icons .close-icon {
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 100;
+    cursor: pointer;
+    padding-right: 12px;
+    border-right: 1px solid #dfe1e5;
+}
+
+main .search-input-container .right-side-icons .microphone-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 12px;
+    margin-right: auto;
+    background-image: url('/assets/microphone-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+main .search-input-container .search-icon {
+    width: 0.85rem;
+    height: 0.85rem;
+    margin-left: 12px;
+    background-image: url('/assets/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .search-buttons-container {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+main .search-buttons-container button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    color: #5f6368;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 0.45rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+main .search-buttons-container button:last-child {
+    margin-right: 0;
+}
+
+main .search-buttons-container button:focus {
+    outline: none;
+}
+
+main .search-buttons-container button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222
+}
